@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -18,28 +18,37 @@
         <div class="row">
           <div class="col-md-3">
             <div class="logo">
-              <img src="/img/logo.png" alt="" />
+              <a href="">
+                <img src="images/LOGO.png" alt="" />
+              </a>
             </div>
           </div>
           <div class="col-md-6">
-            <ul class="menu">
-              <li><a href="">Home</a></li>
-              <li><a href="">Products</a></li>
-              <li><a href="">Shipping</a></li>
-              <li><a href="">Payment</a></li>
-            </ul>
+            <div class="nav">
+              <ul class="menu row">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Shipping</a></li>
+                <li><a href="">Payment</a></li>
+              </ul>
+            </div>
           </div>
           <div class="col-md-3">
             <div class="row">
-              <div class="search">
-                <input type="search" placeholder="search" />
-                <div class="dandruff">
-                  <input type="image" src="/img/dandruff.png" />
+              <div class="col-md-9">
+                <div class="search">
+                  <input
+                    type="text"
+                    placeholder="search"
+                    class="input-search"
+                  />
+                  <input type="button" class="input-bottom" />
                 </div>
               </div>
-              <div class="basket">
-                <div class="nomber">4</div>
-                <img src="/img/backet.png" alt="" />
+              <div class="col-md-3">
+                <div class="cart">
+                  <div class="product-cuunt">4</div>
+                </div>
               </div>
             </div>
           </div>
