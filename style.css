@@ -484,7 +484,7 @@ footer {
 }
 
 button {
-  padding: 0;
+  /* padding: 0; */
   border: none;
   font: inherit;
   color: inherit;
