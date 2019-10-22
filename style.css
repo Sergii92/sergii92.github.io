@@ -552,6 +552,7 @@ label:before {
   border: 1px solid white;
   float: left;
   margin-right: 15px;
+  margin-top: 5px;
 }
 
 input[type="checkbox"]:checked + label::before {
