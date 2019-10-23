@@ -33,7 +33,13 @@ body {
 header {
   padding: 25px 0;
   background-color: rgba(255, 255, 255, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
 }
+
 .menu > li {
   width: 25%;
   float: left;
@@ -178,8 +184,8 @@ li:hover a:only-child:after {
 }
 
 .product-cuunt {
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   border-radius: 50%;
   background-color: #2c71b8;
   text-align: center;
@@ -503,16 +509,15 @@ sup {
 
 .filterContainer {
   width: 270px;
-  height: 845px;
   background-color: rgba(255, 255, 255, 0.2);
   border-right: 1px solid white;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .filterDevise {
-  /* margin-top: 30px; */
   margin-left: 30px;
-  height: 660px;
+
   color: white;
   font-size: 21px;
   font-weight: 300;
