@@ -11,3 +11,11 @@ for (let i = 0; i < addToCartButtons.length; i++) {
     productsCountEl.textContent = prevProductsCount + 1;
   });
 }
+
+let productsLike = document.querySelectorAll(".like");
+console.log(productsLike);
+for (let i = 0; i < productsLike.length; i++) {
+  productsLike[i].addEventListener("click", function() {
+    productsLike[i].classList.toggle("liked");
+  });
+}
