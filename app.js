@@ -19,3 +19,9 @@ for (let i = 0; i < productsLike.length; i++) {
     productsLike[i].classList.toggle("liked");
   });
 }
+
+$(".slider-items").slick({
+  dots: true,
+  autoplay: true,
+  autoplaySpeed: 1000
+});
